@@ -1,0 +1,25 @@
+{
+  "name": "@dokoo/v-programmatic-interactions",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "author": "Mathieu Marteau",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "vuetify": "2.*"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  }
+}
