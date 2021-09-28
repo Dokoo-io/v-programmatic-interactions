@@ -20,6 +20,6 @@ jobs:
           node-version: '12.x'
           registry-url: 'https://registry.npmjs.org'
           # - run: yarn --production
-      - run: cd lib && npm publish --access public
+      - run: cp README.md lib/README.md && cd lib && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
