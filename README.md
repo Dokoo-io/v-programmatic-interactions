@@ -5,7 +5,7 @@ This package allows you to trigger vuetify dialogs programmatically:
 ## Installation
 
 ```
-yarn add @hammerbot/v-programmatic-interactions
+yarn add @dokoo/v-programmatic-interactions
 ```
 Include the `Interactions` component just before closing the `v-app` tag:
 
@@ -38,7 +38,7 @@ export default {
 ## Usage
 
 ```javascript
-import { addModal, notify } from '@hammerbot/v-programmatic-interactions'
+import { addModal, notify } from '@dokoo/v-programmatic-interactions'
 import MyForm from './MyForm.vue'
 
 export default {
@@ -82,7 +82,10 @@ The opened dialogs only work as "Persistent dialogs". The dialog component must 
 
 ## Project setup
 ```
-yarn install
+cd lib
+yarn link
+cd ../examples
+yarn link @dokoo/v-programmatic-interactions
 ```
 
 ### Compiles and hot-reloads for development
